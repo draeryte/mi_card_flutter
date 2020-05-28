@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.black54,
         body: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -25,14 +25,15 @@ class MyApp extends StatelessWidget {
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
                 fontWeight: FontWeight.bold,
-                color: Colors.white,
+                color: Colors.yellow,
               ),
             ),
             Text(
               'Flutter, Swift Developer & Photographer',
               style: TextStyle(
-                fontFamily: 'Source Sans Pro',
-                color: Colors.white30,
+                fontFamily: 'SourceSansPro',
+                fontSize: 20.0,
+                color: Colors.yellowAccent,
               ),
             ),
             SizedBox(
